@@ -14,3 +14,12 @@ scene: !include scenes.yaml
 spotify:
     client_id: f73e0769e81f4c56afe0db00ed28ee5b
     client_secret: 88cbdfe95b074959b24bff2a5e458d5d
+
+influxdb:
+  host: a0d7b954-influxdb
+  port: 8086
+  database: homeassistant
+  username: homeassistant
+  password: RocketDB1!
+  max_retries: 3
+  default_measurement: state
