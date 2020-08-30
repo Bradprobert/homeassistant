@@ -1,0 +1,16 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+
+spotify:
+    client_id: f73e0769e81f4c56afe0db00ed28ee5b
+    client_secret: 88cbdfe95b074959b24bff2a5e458d5d
